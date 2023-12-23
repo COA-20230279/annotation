@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "annotation"
+version = "1.0.0"
+description = "Audiogram annotation system"
+authors = ["COA-20230279 <153356776+COA-20230279@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gradio = "^4.11.0"
+matplotlib = "^3.8.2"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
